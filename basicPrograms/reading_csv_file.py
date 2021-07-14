@@ -1,7 +1,17 @@
 import pandas as pd
+#df=pd.read_csv("C:\\Users\\Lenovo\\Downloads\\results\\submission.csv")
+#pd.set_option('display.max_columns',None)
+#pd.set_option('display.max_rows',None)
+#print(type(df))
+#print(df.columns)
+#print(df.head(2))
 
-
-df1=pd.read_csv("C:\\Users\\Lenovo\\Downloads\\results\\submission.csv")
+data_set=pd.read_csv("C:\\Users\\Lenovo\\OneDrive\\Desktop\\Data Sets For Analysis\\DATA\\birthplace-2018-census.csv")
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)
-print(df1.head(10))
+print(data_set.head(5))
+#print(type(data_set))
+#print(data_set.head(5))
+print()
+
+
